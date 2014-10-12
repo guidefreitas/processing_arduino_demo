@@ -1,0 +1,9 @@
+#JSGF V10;
+
+/**
+ * JSGF Test Grammar file
+ */
+
+grammar Words;
+
+public <COLORS> = ( BLUE | GREEN | RED | LIGHT ) *;

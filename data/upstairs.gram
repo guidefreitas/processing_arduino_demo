@@ -1,0 +1,11 @@
+#JSGF V10;
+
+/**
+ * JSGF Test Grammar file
+ */
+
+grammar Words;
+
+public <WORDS> = ( OPEN | A | ANSWER  | BAG  | BALLS  | BANDANNA  | BLACK | BLOODY | BLUE | BOARD | BOARDS | BOOED | CAMERA | CARPET | CEILING | CHAIR | CHAIRS | CLOWNS ) *;
+
+public <QUIT> = ( STOP | QUIT | EXIT ) *;
